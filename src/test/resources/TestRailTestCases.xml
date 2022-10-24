@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+
+    <!--Core-->
+    <testcase>
+        <id>295303</id>
+        <title>com.epc.test.miscellaneous.removeMember360DataGenerateRESTest</title>
+    </testcase>
+
+</testcases>

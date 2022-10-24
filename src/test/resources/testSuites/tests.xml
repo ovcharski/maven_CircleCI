@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Tests" parallel="true">
+
+    <listeners>
+        <listener class-name="helperClasses.ExtendReporterNG"></listener>
+    </listeners>
+    
+    
+    <test name="API Tests">
+        <classes>
+            <class name="tests.APITests"></class>
+        </classes>
+    </test>
+
+    <test name="Traditional Tests">
+        <classes>
+            <class name="tests.TraditionalTests"></class>
+        </classes>
+    </test>
+
+</suite>
